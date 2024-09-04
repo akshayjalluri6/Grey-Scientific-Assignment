@@ -33,36 +33,17 @@ bash
 Copy code
 git clone https://github.com/your-username/react-calendar-app.git
 cd react-calendar-app
-Install the dependencies:
-bash
-Copy code
-npm install
-Start the development server:
-bash
-Copy code
-npm start
-This will start the development server, and the application will be available at http://localhost:3000.
-Project Structure
-Here is a quick overview of the project structure:
 
-java
-Copy code
-react-calendar-app/
-│
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── CalendarView.js
-│   │   ├── AddEvent.js
-│   │   ├── EditEvent.js
-│   │   ├── EventDetails.js
-│   │   ├── EventFilter.js
-│   │   └── EventContext.js
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── package.json
-└── README.md
+Install the dependencies:
+npm install
+
+Start the development server:
+npm start
+
+This will start the development server, and the application will be available at http://localhost:3000.
+
+
+
 CalendarView.js: Displays the calendar with events and allows navigation to event details.
 AddEvent.js: The form for adding new events to the calendar.
 EditEvent.js: A form for editing an existing event.

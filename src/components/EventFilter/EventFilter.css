@@ -1,0 +1,20 @@
+.event-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .event-filter label {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .event-filter select {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

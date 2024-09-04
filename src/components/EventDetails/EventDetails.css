@@ -1,0 +1,58 @@
+.event-details {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.event-details h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.event-details p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #f1c40f;
+}
+
+.delete-button {
+  background-color: red;
+  margin-left: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .event-details {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .event-details h2 {
+    font-size: 1.3rem;
+  }
+
+  .edit-button,
+  .delete-button {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+}

@@ -31,7 +31,7 @@ To get the application running locally, follow these steps:
 Clone this repository:
 bash
 Copy code
-git clone https://github.com/your-username/react-calendar-app.git
+git clone (https://github.com/akshayjalluri6/Grey-Scientific-Assignment.git)
 cd react-calendar-app
 
 Install the dependencies:
